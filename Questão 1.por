@@ -5,10 +5,10 @@ programa
     {
       inteiro matriz[5][5]
       inteiro i, j
-      inteiro soma, maiorSoma, linhaMaior
+      inteiro soma, maiorSoma, linhaSoma
 
       maiorSoma = 0
-      linhaMaior = -1
+      linhaSoma = -1
 
       para (i = 0; i < 5; i = i + 1)
       {
@@ -32,10 +32,10 @@ programa
         se (soma > maiorSoma)
         {
             maiorSoma = soma
-            linhaMaior = i
+            linhaSoma = i
         }
       }
 
-      escreva("\nA linha com a maior soma é a linha ", linhaMaior + 1, " com soma igual a ", maiorSoma, "\n")
+      escreva("\nA linha com a maior soma é a linha ", linhaSoma + 1, " com soma igual a ", maiorSoma, "\n")
   }
 }
